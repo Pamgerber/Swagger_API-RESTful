@@ -13,6 +13,9 @@ namespace ApiApp.Controllers
     [ApiController]
     public class CategoriaController : BaseController<Categoria, CategoriaRepository>
     {
+        public CategoriaController()
+        {
 
+        }
     }
 }

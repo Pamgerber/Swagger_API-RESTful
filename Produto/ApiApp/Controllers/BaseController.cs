@@ -16,15 +16,37 @@ namespace ApiApp.Controllers
         R repo = Activator.CreateInstance<R>();
 
         [HttpGet]
-        public List<T> Get()
+        public ActionResult<List<T>> Get()
         {
-            return repo.Read();
+            try
+            {
+                return repo.Read();
+            }
+            catch (MissingFieldException ex)
+            {
+                return StatusCode(404);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500);
+            }
         }
 
         [HttpGet("{id}")]
-        public T Get(int id)
+        public ActionResult<T> Get(int id)
         {
-            return repo.Read(id);
+            try
+            {
+                return repo.Read(id);
+            }
+            catch (MissingFieldException ex)
+            {
+                return StatusCode(404);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500);
+            }
         }
 
         [HttpPost]
@@ -33,23 +55,41 @@ namespace ApiApp.Controllers
             try
             {
                 repo.Create(model);
-                return StatusCode(201, "Criada com Sucesso");
+                return StatusCode(201);
             }catch (Exception ex)
             {
-                return StatusCode(500, "Erro de servidor");
-            }
+                return StatusCode(500);
+            } 
         }
 
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] T model)
+        public ActionResult Put(int id, [FromBody] T model)
         {
-            repo.Update(model);
+            try
+            {
+                repo.Update(model);
+                return StatusCode(204);
+
+            }
+            catch
+            {
+                return StatusCode(500);
+            }
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
-            repo.Delete(id);
+
+            try
+            {
+                repo.Delete(id);
+                return StatusCode(204);
+            }
+            catch
+            {
+                return StatusCode(500);
+            }
         }
             
     }

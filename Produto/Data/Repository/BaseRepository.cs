@@ -27,6 +27,12 @@ namespace Data.Repository
             {
                 lista = context.Set<T>().ToList();
             }
+
+            if (lista.Count == 0)
+            {
+                throw new MissingFieldException();
+            }
+
             return lista;
         }
 
@@ -37,6 +43,12 @@ namespace Data.Repository
             {
                 model = context.Set<T>().Find(id);
             }
+
+            if(model == null)
+            {
+                throw new MissingFieldException();
+            }
+
             return model;
         }
 

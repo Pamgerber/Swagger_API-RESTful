@@ -14,6 +14,8 @@ C:\Users\vinicius\Documents\GItHub\Produdo_Categoria\Produto\Data\obj\Debug\net5
 C:\Users\vinicius\Documents\GItHub\Produdo_Categoria\Produto\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
 C:\Users\vinicius\Documents\GItHub\Produdo_Categoria\Produto\Data\obj\Debug\net5.0\ref\Data.dll
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.deps.json
+C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.runtimeconfig.json
+C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.dll
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.pdb
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
@@ -24,7 +26,5 @@ C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\ne
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\Data.dll
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\refint\Data.dll
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\Data.pdb
-C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\ref\Data.dll
-C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.runtimeconfig.json
-C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
 C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+C:\Users\vinicius\Documents\GItHub\Swagger_API-RESTful\Produto\Data\obj\Debug\net5.0\ref\Data.dll
