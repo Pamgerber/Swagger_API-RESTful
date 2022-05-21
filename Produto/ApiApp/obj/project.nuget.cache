@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yguO0AKrwCDvPJi07B7uOqPNZZ1/BvmZgmu5GXQYjp5WFi2uj/UXMBamgweXliWdjCEo33Zjdxq6jdg4MUJslA==",
+  "dgSpecHash": "wc/yiSwntolmPQ45CW79zy5bW+nSUnJgEmsgjkq2J2wlH7P5IXbc35KKWKlvbGYNGOqNbinDQKA0Ut1r8rfzIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\ApiApp\\ApiApp.csproj",
+  "projectFilePath": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\ApiApp\\ApiApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -31,11 +31,7 @@
     "C:\\Users\\vinicius\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\vinicius\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\vinicius\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\vinicius\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
-    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512",
-    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\vinicius\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -12,7 +12,7 @@ namespace Data.Context
     {
         public DbSet<Produto> Produtos { get; set; }
 
-       // public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

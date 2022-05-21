@@ -11,7 +11,7 @@ namespace ApiApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CadastroController : BaseController<Categoria, CategoriaRepository>
+    public class CategoriaController : BaseController<Categoria, CategoriaRepository>
     {
 
     }

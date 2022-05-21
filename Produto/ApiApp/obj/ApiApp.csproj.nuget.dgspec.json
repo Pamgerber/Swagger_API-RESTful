@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\ApiApp\\ApiApp.csproj": {}
+    "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\ApiApp\\ApiApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\ApiApp\\ApiApp.csproj": {
+    "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\ApiApp\\ApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\ApiApp\\ApiApp.csproj",
+        "projectUniqueName": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\ApiApp\\ApiApp.csproj",
         "projectName": "ApiApp",
-        "projectPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\ApiApp\\ApiApp.csproj",
+        "projectPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\ApiApp\\ApiApp.csproj",
         "packagesPath": "C:\\Users\\vinicius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\ApiApp\\obj\\",
+        "outputPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\ApiApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\Data\\Data.csproj"
+              "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\Data\\Data.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[5.0.9, )"
             },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -69,24 +73,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.16, 5.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -99,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\Data\\Data.csproj": {
+    "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\vinicius\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Produdo_Categoria\\Produto\\Data\\obj\\",
+        "outputPath": "C:\\Users\\vinicius\\Documents\\GItHub\\Swagger_API-RESTful\\Produto\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,13 +123,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.7, )"
             },
             "Npgsql": {
               "target": "Package",
@@ -168,20 +154,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
